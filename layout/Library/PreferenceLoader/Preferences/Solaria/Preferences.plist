@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>entry</key>
+    <dict>
+        <key>cell</key>
+        <string>PSLinkCell</string>
+        <key>label</key>
+        <string>Solaria</string>
+    </dict>
+    <key>title</key>
+    <string>Solaria</string>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>defaults</key>
+            <string>cc.forcequit.solaria</string>
+            <key>key</key>
+            <string>enabled</string>
+            <key>label</key>
+            <string>Liquid Glass</string>
+            <key>default</key>
+            <true/>
+            <key>PostNotification</key>
+            <string>cc.forcequit.solaria/preferences.changed</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>defaults</key>
+            <string>cc.forcequit.solaria</string>
+            <key>key</key>
+            <string>allowUnsupported</string>
+            <key>label</key>
+            <string>Enable for Unsupported Apps</string>
+            <key>default</key>
+            <false/>
+            <key>PostNotification</key>
+            <string>cc.forcequit.solaria/preferences.changed</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>defaults</key>
+            <string>cc.forcequit.solaria</string>
+            <key>key</key>
+            <string>allowOptedOut</string>
+            <key>label</key>
+            <string>Enable for Opted-Out Apps</string>
+            <key>default</key>
+            <false/>
+            <key>PostNotification</key>
+            <string>cc.forcequit.solaria/preferences.changed</string>
+        </dict>
+    </array>
+</dict>
+</plist>
