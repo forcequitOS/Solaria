@@ -1,7 +1,9 @@
 # Solaria
 tvOS 26 jailbreak tweak to enable Liquid Glass on unsupported Apple TV models.
 
-Verified to work as of tvOS 26.1, tested on an Apple TV 4K 1st gen.
+Tested on, verified working:
+- tvOS 26.2 (23K54) on Apple TV 4K (1st generation)
+- tvOS 26.1 (23J582) on Apple TV 4K (1st generation)
 
 Solaria has a few settings you can toggle on and off:
 
